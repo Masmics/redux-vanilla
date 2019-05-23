@@ -1,1 +1,1 @@
-First Redux app exercise: redux-vanilla-lunch.
+First Redux app exercise: redux-vanilla-lunch-refactor-reducer
