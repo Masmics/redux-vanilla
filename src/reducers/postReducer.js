@@ -22,6 +22,7 @@ export default function reducer(state = initialState, action) {
     case ADD_SANDWICH:
       return { ...state, sandwich: action.payload };
   }
+
   switch(action.type) {
     case REMOVE_SANDWICH:
       return { ...state, sandwich: null };
@@ -43,8 +44,3 @@ export default function reducer(state = initialState, action) {
       return { ...state, drink: null };
   }
 }
-
-// store an array of posts
-// handle create a post
-// handle delete a post
-// BONUS: handle update a post by index
