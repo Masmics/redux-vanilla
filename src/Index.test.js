@@ -1,4 +1,3 @@
-
 import { addDrink, ADD_DRINK } from './index';
 
 describe('lunch actions', () => {
